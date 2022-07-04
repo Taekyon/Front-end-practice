@@ -1,0 +1,28 @@
+
+body {
+	font-family: Roboto, 'Cooper Black', impact;
+	color: #
+}
+
+h1 {
+	box-shadow: 3px 3px 3px rebeccapurple;
+}
+
+p {
+	font-family: Cambria;
+}
+
+p:hover {
+	border-left: 1px solid; border-color: gray;
+}
+
+a:hover {
+	color:green;
+}
+a:active {
+	color:red;
+}
+
+.float_right {
+	float: right;
+}

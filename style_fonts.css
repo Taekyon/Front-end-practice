@@ -1,0 +1,23 @@
+/*ajout de Montserrat, via googleapis*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+	background-color: #FFF7FF;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+	box-shadow: 2px 3px 0px 0px black;
+	padding: 0px 0px 10px 0px;
+}
+
+header {
+	text-align:center;
+	height: 100px;
+	min-height: 50px;
+}
