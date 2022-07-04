@@ -1,4 +1,4 @@
-/*ajout de Montserrat, via googleapis*/
+/*ajout des polices Montserrat et Roboto, via googleapis*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -7,17 +7,39 @@ body {
 	background-color: #FFF7FF;
 }
 
-h1, h2, h3 {
-    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-h1 {
-	box-shadow: 2px 3px 0px 0px black;
-	padding: 0px 0px 10px 0px;
-}
-
+/*Styles de block*/
 header {
 	text-align:center;
 	height: 100px;
 	min-height: 50px;
+}
+
+figure {
+	text-align: center;
+	font-style: italic;
+}
+
+/*Les titres */
+h1 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	box-shadow: 2px 3px 0px 0px black;
+	padding: 0px 0px 10px 0px;
+}
+
+h2 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	/* essayer de créer un espacement après, comme sur Word */
+	height: 50px;
+}
+
+h3 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: bold;
 }

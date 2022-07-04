@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- en tete de la page -->
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../style_fonts.css" />
+		
+		<title>Ma page de révisions</title>
+	</head>
+	<body>
+	<header>
+		<h1>Mes révisions</h1>
+		
+		<p>Voici un autre mémento plus complet, en cas de besoin juste <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">ici</a>.</p>
+	</header>
+	<section>
+	<!-- debut du texte -->
+		<h2 class="introduction">Les balises pour la rédaction</h2><!-- Section ou je decris les l'usage des balises utiliser pour la "mise en forme" de texte -->
+	
+			<h3>La balise &lt;p&gt;</h3>
+
+				<p>P comme paragraphe. Cela va devenir notre balise pour le texte de base.<br />
+				C'est aussi le niveau de hierarchie de base, un peu comme le corps de texte sur Word</p>
+	
+			<h3>La balise &lt;br /&gt;</h3>
+		
+				<p>Souvent utilisee en <span class="underline">balise orpheline</span> a la fin d'un paragraphe, cela permet de faire un simple retour a la ligne.<br />
+				comme ceci.</p>
+	
+		<!-- regroupe toutes les balises qui ne sert pas a la redaction-->
+		<h2>Les autres balises</h2>
+		
+			<h3 id="balise1">La balise &lt;a&gt;</h3>
+		
+				<p> C'est la balise de <span class="underline">lien</span> par excellence. Elle permet de renvoyer l'utilisateur a un autre endroit</p>
+		
+		<h2>La terminologie</h2>
+			
+			<p>On parle de <span class="underline">balises en paires</span> lorsque 2 balises s'ouvrent, contiennent du texte, et se ferment plus loin. Voici a quoi elles ressemblent :<br />
+			<span class="bold">&lt;titre&gt;ceci est un titre&lt;/titre&gt;</span></p>
+
+			<p>La <span class="underline">balises orpheline</span> (en opposition au <span class="underline">balises en paires</span>) s'ecrit avec un " /".<br />
+			l'espace avant le slash n'est pas necessaire, mais va nous servir a rendre le code plus lisible</p>
+
+			<p>il existe des balise de type <em>inline</em>, comme &lt;em&gt; ou &lt;strong&gt;
+			et d'autre balise de type <em>block</em>, comme les fameuses balises &lt;p&gt; ou &lt;h1&gt;.<br />
+			Ces balises ont quelque chose en commun: elles créent un nouveau "bloc" dans la page et provoquent donc obligatoirement un retour à la ligne.</p>
+			
+		<h2>Les Bases de la structure</h2>
+		<!-- Figure illustrant un exemple de structure en HTML -->
+		<figure>
+			<a href="../ressource/img/structure-html.png"><img src="../res/img/structure-html.png" alt="Sections de la page identifiées par les balises" title="Cliquez pour agrandir"/></a>
+			<figcaption>voici un exemple de structure en HTML</figcaption>
+		</figure>
+		
+		<!-- Pied de page -->
+		<footer>
+		<h2>zone de sauvegarder</h2>
+			<!-- lien vers les site de révisions -->
+			<ul>
+				<li>site indexant toute les balises, <a target="_blank" href="https://www.w3schools.com/html/html_formatting.asp">ici</a>.</li>
+			<li>mon cours sur <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">openclassrooms</a>.</li>
+			</ul>
+			... le reste dans les commentaires du code source.</p>
+				<!-- "&lt;" pour marquer "<" et "&gt;" pour marquer ">" -->
+				<!-- SAUVEGARDE BRYAN : https://bm-studio.ch/assets/css/main.css
+				view-source:https://bm-studio.ch/
+				https://bm-studio.ch/ -->
+		</footer>
+	</section>
+	</body>
