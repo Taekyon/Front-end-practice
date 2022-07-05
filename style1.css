@@ -7,6 +7,7 @@ body {
 	background-color: #FFF7FF;
 }
 
+
 /*
 /*Styles de block -----------*/
 header {
@@ -20,18 +21,21 @@ figure {
 	font-style: italic;
 }
 
-/*
-/*Les titres ---------------*/
+footer {
+	margin: 200px 0 0 25px;
+}
+
+
+/*Les titres--*/
 h1 {
     font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	box-shadow: 2px 3px 0px 0px black;
-	padding: 0px 0px 10px 0px;
+	box-shadow: 2px 3px 0 0 black;
+	padding: 0 0 10px 0px;
 }
 
 h2 {
     font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	/* essayer de créer un espacement après, comme sur Word */
-	height: 50px;
 }
 
 h3 {
@@ -40,10 +44,12 @@ h3 {
 
 /*
 Les classes ---------------*/
-.underline {
-	text-decoration: underline;
+
+.float_right {
+	float: right;
 }
 
-.bold {
-	font-weight: bold;
-}
+/*
+<b> = bold ---> font-style
+<i> = italic -> font-style
+<ins> = inserted text (wich is underlined) -> text-decoration: underline*/
