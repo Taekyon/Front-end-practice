@@ -1,0 +1,48 @@
+/*ajout des polices Montserrat et Roboto, via googleapis*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+	background-color: #FFF7FF;
+}
+
+
+/*
+/*Style de block -----------*/
+p {
+	
+}
+
+
+/*
+/*Les titres ---------------*/
+h1 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	box-shadow: 2px 3px 0 0 black;
+	padding: 0 0 10px 0;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*
+/*Style de section---------*/
+header {
+	text-align: center;
+}
+
+
+/*
+Les classes ---------------*/
+
+.float_right {
+	float: right;
+}
+
+/*
+<b> = bold ---> font-style
+<i> = italic -> font-style
+<ins> = inserted text (wich is underlined) -> text-decoration: underline*/

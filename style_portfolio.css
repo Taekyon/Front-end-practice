@@ -7,21 +7,28 @@ body {
 	background-color: #FFF7FF;
 }
 
+
 /*
 /*Styles de block -----------*/
-header {
-	text-align:center;
-	height: 100px;
-	min-height: 50px;
-}
 
 figure {
 	text-align: center;
 	font-style: italic;
 }
 
-/*
-/*Les titres ---------------*/
+p:hover {
+	border-left: 1px solid; border-color: gray;
+}
+
+a:hover {
+	color:green;
+}
+a:active {
+	color:red;
+}
+
+
+/*Les titres --*/
 h1 {
     font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	box-shadow: 2px 3px 0px 0px black;
@@ -38,12 +45,28 @@ h3 {
     font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 /*
-Les classes ---------------*/
-.underline {
-	text-decoration: underline;
+/*Style de section---------*/
+header {
+	text-align:center;
+	height: 100px;
+	min-height: 50px;
 }
 
-.bold {
-	font-weight: bold;
+footer {
+	display: flex;
+	justify-content: space-between;
 }
+
+/*
+Les classes ---------------*/
+
+.float_right {
+	float: right;
+}
+
+/*
+<b> = bold ---> font-style
+<i> = italic -> font-style
+<ins> = inserted text (wich is underlined) -> text-decoration: underline*/
