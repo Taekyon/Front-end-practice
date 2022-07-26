@@ -2,9 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+/*
+/*body ---------*/
+
 body {
     font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
 	background-color: #FFF7FF;
+}
+
+#bloc_page {
+	width: 900px;
+	margin: auto;
+}
+
+
+/*
+/*header ----------------*/
+
+header {
+	text-align:center;
+	height: 100px;
+	min-height: 50px;
 }
 
 
@@ -48,16 +67,12 @@ h3 {
 
 /*
 /*Style de section---------*/
-header {
-	text-align:center;
-	height: 100px;
-	min-height: 50px;
-}
 
 footer {
 	display: flex;
 	justify-content: space-between;
 }
+
 
 /*
 Les classes ---------------*/
