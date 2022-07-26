@@ -1,13 +1,33 @@
+/*
+/*body ---------*/
+
+#bloc_page {
+	width: 900px;
+	margin: auto;
+}
 
 body {
 	font-family: Roboto, 'Cooper Black', impact;
-	color: #
+	color: #FFF7FF
 }
 
+/*
+/*header ----------------*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items; flex-end;
+	height: 125px;
+}
+
+/*
+/*Titres ---------*/
 h1 {
 	box-shadow: 3px 3px 3px rebeccapurple;
 }
 
+/* autre */
 p {
 	font-family: Cambria;
 }
