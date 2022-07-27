@@ -24,23 +24,16 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items; flex-end;
-	height: 125px;
-}
-
-/*
-/*Styles de block -----------*/
-figure {
-	text-align: center;
-	font-style: italic;
+	min-height: 125px;
+	box-shadow: 2px 3px 0px 0px black;
 }
 
 
 /*Les titres --*/
 h1 {
     font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	box-shadow: 2px 3px 0px 0px black;
-	padding: 0px 0px 10px 0px;
 	overflow: hidden;
+	line-height: 1.6;
 }
 
 h2 {
@@ -60,12 +53,31 @@ h3 {
 
 footer {
 	display: flex;
-	justify-content: space-between;
-	text-align: right;
+	justify-content: flex-end;
+	gap: 20px;
+}
+
+
+/*
+/*Styles de block -----------*/
+
+figure {
+	text-align: center;
+	font-style: italic;
+}
+
+li {
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /*
 Les classes ---------------*/
+
+#info {
+	list-style-type: none;
+}
 
 .float_right {
 	float: right;
