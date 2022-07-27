@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
 	background-color: #FFF7FF;
+	color: #181818;
 }
 
 #bloc_page {
@@ -77,8 +78,9 @@ footer {
 /*
 Les classes ---------------*/
 
-.float_right {
-	float: right;
+#date {
+	position: absolute;
+	right: 15px;
 }
 
 /*
