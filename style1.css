@@ -2,19 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+/*
+/* body ------------*/
+
 body {
     font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
 	background-color: #FFF7FF;
+	color:#181818;
+}
+
+#bloc_page {
+	width: 900px;
+	margin: auto;
+}
+
+
+/*
+/*header ----------------*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items; flex-end;
+	height: 100px;
+	min-height: 50px;
 }
 
 
 /*
 /*Styles de block -----------*/
-header {
-	text-align:center;
-	height: 100px;
-	min-height: 50px;
-}
 
 figure {
 	text-align: center;

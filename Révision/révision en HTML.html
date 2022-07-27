@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<!-- en tete de la page -->
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="../style1.css" />
+		<link rel="stylesheet" href="style_revision.css" />
 		
 		<title>Ma page de révisions</title>
 	</head>
 	<body>
+	<div id="bloc_page">
 	<header>
+		
 		<h1>Mes révisions</h1>
 		
-		<p>Voici un autre mémento plus complet, en cas de besoin juste <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">ici</a>.</p>
+			<p>Voici un autre mémento plus complet, en cas de besoin juste <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">ici</a>.</p>
+	
 	</header>
-	<section>
 	<!-- debut du texte -->
-		<h2 class="introduction">Les balises pour la rédaction</h2><!-- Section ou je decris les l'usage des balises utiliser pour la "mise en forme" de texte -->
+	<section>
+		
+		<h2 id="intro">Les balises pour la rédaction</h2><!-- Section ou je decris les l'usage des balises utiliser pour la "mise en forme" de texte -->
 	
 			<h3>La balise &lt;p&gt;</h3>
 
@@ -47,26 +51,72 @@
 			Ces balises ont quelque chose en commun: elles créent un nouveau "bloc" dans la page et provoquent donc obligatoirement un retour à la ligne.</p>
 			
 		<h2>Les Bases de la structure</h2>
-		<!-- Figure illustrant un exemple de structure en HTML -->
-		<figure>
-			<a href="../ressource/img/structure-html.png"><img src="../ressource/img/structure-html.png" alt="Sections de la page identifiées par les balises" title="Cliquez pour agrandir"/></a>
-			<figcaption>voici un exemple de structure en HTML</figcaption>
-		</figure>
+			
+			<figure>
+				<a href="../ressource/img/structure-html.png"><img src="../ressource/img/structure-html.png" alt="Sections de la page identifiées par les balises" title="Cliquez pour agrandir"/></a>
+				<figcaption>voici un exemple de structure en HTML</figcaption>
+			</figure>
+
+		<h2>Fontionnalité CSS</h2>
+		
+			<h3>flex-direction</h3>
+		
+			<h3>display: flex;</h3>
+			
+				<p> le paramètre "justify-content" permet de répartir le contenu de la flexbox.<br />
+				voici quelque exemple:</p>
+				<!-- liste à puce concernant les différents paramètres de "justify content" -->
+				<ul>
+					<li>flex-start: pour commencer le flex au début</li>
+					<li>flex-end: commence à la fin</li>
+					<li>center</li>
+					<li>space-between: pour répartir le contenu jusqu'au bout</li>
+					<li>space-around: comme space-between mais avec des espaces au début et à la fin.</li>
+				</ul>
+		
+			<h3>align-items</h3>
+			
+				<ul>
+					<li>center</li>
+					<li>flex-start</li>
+					<li>baseline</li>
+				</ul>
+				
+			<h3>align-content</h3>
+			
+				<p>à utiliser quand il y a plusieurs block</p>
+				<ul>
+					<li>flex-start</li>
+					<li>flex-end</li>
+					<li>space-between</li>
+					<li>space-around</li>
+					<li>stretch (valeur par défaut)</li>
+				</ul>
+
+			<h3>margin: auto</h3>
+		
+		<h2>Mémento</h2>
+		
+			<p>list-style-type="none" permet de cacher le style affilié à la balise (pratique pour cacher une liste à puce).</p>
+			
 	</section>
 	
 	<!-- Pied de page -->
 	<footer>
+		
 		<h2>zone de sauvegarder</h2>
-		<!-- lien vers les site de révisions -->
-		<ul>
-			<li>site indexant toute les balises, <a target="_blank" href="https://www.w3schools.com/html/html_formatting.asp">ici</a>.</li>
-			<li>mon cours sur <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">openclassrooms</a>.</li>
-		</ul>
-		<p>... le reste dans les commentaires du code source.</p>
-			<!-- "&lt;" pour marquer "<" et "&gt;" pour marquer ">" -->
-			<!-- SAUVEGARDE BRYAN : https://bm-studio.ch/assets/css/main.css
-			view-source:https://bm-studio.ch/
-			https://bm-studio.ch/ -->
+			
+			<!-- lien vers les site de révisions -->
+			<ul>
+				<li>site indexant toute les balises, <a target="_blank" href="https://www.w3schools.com/html/html_formatting.asp">ici</a>.</li>
+				<li>mon cours sur <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">openclassrooms</a>.</li>
+			</ul>
+			<p>... le reste dans les commentaires du code source.</p>
+				<!-- "&lt;" pour marquer "<" et "&gt;" pour marquer ">" -->
+				<!-- SAUVEGARDE BRYAN : https://bm-studio.ch/assets/css/main.css
+				view-source:https://bm-studio.ch/
+				https://bm-studio.ch/ -->
 	</footer>
+	</div>
 	</body>
 </html>

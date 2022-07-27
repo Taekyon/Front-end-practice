@@ -4,18 +4,19 @@
 
 
 /*
-/*body ---------*/
+/* body ------------*/
 
 body {
     font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
 	background-color: #FFF7FF;
-	margin-bottom: 5px;
+	color:#181818;
 }
 
 #bloc_page {
-	width: 900px;
+	max-width:1500px;
 	margin: auto;
 }
+
 
 /*
 /*header ----------------*/
@@ -23,38 +24,10 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	align-items; flex-end;
-	min-height: 125px;
-	box-shadow: 2px 3px 0px 0px black;
-}
-
-
-/*Les titres --*/
-h1 {
-    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	overflow: hidden;
-	line-height: 1.6;
-}
-
-h2 {
-    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	/* essayer de créer un espacement après, comme sur Word */
-	margin-bottom: 25px;
-}
-
-h3 {
-    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-
-/*
-/*footer---------*/
-
-
-footer {
-	display: flex;
-	justify-content: flex-end;
-	gap: 20px;
+	align-items: center;
+	height: 75px;
+	min-height: 60px;
+	box-shadow: 2px 3px 0 0 black;
 }
 
 
@@ -66,17 +39,36 @@ figure {
 	font-style: italic;
 }
 
-li {
-	margin-bottom: 10px;
-	margin-right: auto;
-	margin-left: auto;
+footer {
+	margin: 200px 0 0 25px;
+}
+
+
+/*Les titres--*/
+h1 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	overflow: hidden;
+}
+
+h2 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding-top: 20px;
+}
+
+h3 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding-left: 10px;
+}
+
+p {
+	padding-left: 10px;
 }
 
 /*
 Les classes ---------------*/
 
-#info {
-	list-style-type: none;
+#intro {
+	padding-top: 50px;
 }
 
 .float_right {
