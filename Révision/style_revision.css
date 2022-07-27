@@ -1,0 +1,81 @@
+/*ajout des polices Montserrat et Roboto, via googleapis*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*
+/* body ------------*/
+
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+	background-color: #FFF7FF;
+	color:#181818;
+}
+
+#bloc_page {
+	max-width:1500px;
+	margin: auto;
+}
+
+
+/*
+/*header ----------------*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 75px;
+	min-height: 60px;
+	box-shadow: 2px 3px 0 0 black;
+}
+
+
+/*
+/*Styles de block -----------*/
+
+figure {
+	text-align: center;
+	font-style: italic;
+}
+
+footer {
+	margin: 200px 0 0 25px;
+}
+
+
+/*Les titres--*/
+h1 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	overflow: hidden;
+}
+
+h2 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding-top: 20px;
+}
+
+h3 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding-left: 10px;
+}
+
+p {
+	padding-left: 10px;
+}
+
+/*
+Les classes ---------------*/
+
+#intro {
+	padding-top: 50px;
+}
+
+.float_right {
+	float: right;
+}
+
+/*
+<b> = bold ---> font-style
+<i> = italic -> font-style
+<ins> = inserted text (wich is underlined) -> text-decoration: underline*/
