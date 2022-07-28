@@ -1,6 +1,0 @@
-/*à corriger*/
-@import url(https://googlefonts.com)
-
-h1 h2 h3 h4 h5 h6 {
-	font-family: 'Segoe UI, 'Lucida sans', sans-serif;
-}

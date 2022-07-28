@@ -1,6 +1,16 @@
 /*à corriger*/
-@import url(https://googlefonts.com)
+@import url(https://googlefonts.com);
 
-h1 h2 h3 h4 h5 h6 {
-	font-family: 'Segoe UI, 'Lucida sans', sans-serif;
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Segoe UI', 'Lucida sans', sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
 }
