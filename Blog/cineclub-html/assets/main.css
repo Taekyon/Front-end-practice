@@ -1,17 +1,28 @@
-/*à corriger*/
-@import url(https://googlefonts.com);
-
+/* header */
 header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: 'Segoe UI', 'Lucida sans', sans-serif;
+/* Navigation */
+ul {
+    list-style-type: none;
+    display: flex;
 }
 
-nav ul {
-	list-style-type: none;
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
 }
