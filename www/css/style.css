@@ -1,37 +1,73 @@
 body {
-    background-color: rgb(240, 217, 159);
+    background-color: #EDF6F9;
     font-family:'Segoe UI', Tahoma, sans-serif;
 }
 
-ul {
-    list-style-type: none;
-}
-
-
-/**
-Title **/
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.3em;
+    padding: 0 45px 0 45px;
+    overflow: hidden;
 }
 
 
 /**
 Header **/
 header {
-    margin-left: 50px;
+    border: 7px outset #83C5BE;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    Height: 9em;
 }
+
 
 header ul {
     display: flex;
+    flex: 0.9;
+    justify-content: space-between;
     font-size: 1.4em;
 }
 
-header ul li {
-    align-items: flex-end;
-    margin-right: 40px; /* Doit être adaptif, plutôt que fixe */
+    header ul li {
+        list-style-type: none;
+        margin-right: 1em;
+    }
+
+        header > ul > li a {
+            color: rgba(0, 0, 0, 0.493);
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+            header > ul > li a:hover {
+                color: #E29578;
+            }
+
+            header > ul > li a:active {
+                color: #e63d00;
+            }
+
+
+/**
+section**/
+section {
+    margin: 10em 60em 0 20em;
+    text-align: justify;
 }
+
+section p {
+    margin-bottom: 30em;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+
+/**
+aside**/
 
 
 /**
@@ -48,5 +84,13 @@ Class et Id **/
 }
 
 
-/**
-revision.html**/
+/** zone de sauvegarde **
+/* Rendre un texte visible */
+    /* A SUPPRIMER 
+    background-color: #E29578;
+     A SUPPRIMER */
+
+/* Dégrader */
+/*
+background-image: linear-gradient(to left, #83C5BE, #a0cac6);
+*/
