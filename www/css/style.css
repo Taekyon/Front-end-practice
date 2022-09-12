@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(240, 217, 159);
+    font-family:'Segoe UI', Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/**
+Title **/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/**
+Header **/
+header {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    font-size: 1.4em;
+}
+
+header ul li {
+    align-items: flex-end;
+    margin-right: 40px; /* Doit être adaptif, plutôt que fixe */
+}
+
+
+/**
+Footer **/
+footer {
+    margin-top: 200px;
+}
+
+
+/**
+Class et Id **/
+#date {
+    text-align: right;
+}
+
+
+/**
+revision.html**/
