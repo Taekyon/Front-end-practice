@@ -1,96 +1,203 @@
 body {
-    background-color: #EDF6F9;
+    /*background-color: #EDF6F9;*/
+    background: url('../img/background-compressed.jpg') repeat-y;
     font-family:'Segoe UI', Tahoma, sans-serif;
+}
+
+.title {
+    margin-top: 8rem;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.3em;
+    font-size: 3.3rem;
     padding: 0 45px 0 45px;
     overflow: hidden;
 }
 
+h2 {
+    font-size: 2.4rem;
+}
+
+a {
+    color:rgba(0, 0, 0, 0.493);
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        color:#83C5BE;
+    }
+
 
 /**
-Header **/
+Images**/
+figure {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%; /** Changing width HERE **/
+}
+
+figure img {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.hover_image {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+figure img:hover {
+    opacity: 0.3;
+}
+
+figure:hover .hover_image {
+    opacity: 1;
+}
+
+figcaption {
+    background-color: #fffbf9;
+    color: #090e0d;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-align: center;
+}
+
+img {
+    object-fit: fill;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.photo {
+    border-radius: 24px;
+}
+
+/**
+Header : WIP — MOCHE**/
 header {
-    border: 7px outset #83C5BE;
+    border: 8px outset #fcf4f1;
+    background-color: #fcf4f1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    Height: 9em;
+    Height: 8rem;
 }
 
-
-header ul {
-    display: flex;
-    flex: 0.9;
-    justify-content: space-between;
-    font-size: 1.4em;
-}
-
-    header ul li {
-        list-style-type: none;
-        margin-right: 1em;
+    header h1 {
+        flex: 1.4;
     }
 
-        header > ul > li a {
-            color: rgba(0, 0, 0, 0.493);
-            letter-spacing: 0.25em;
-            text-transform: uppercase;
-            text-decoration: none;
-        }
-            header > ul > li a:hover {
-                color: #E29578;
-            }
+    header ul {
+        display: flex;
+        flex: 0.75;
+        justify-content: space-between;
+        font-size: 1.4rem;
+    }
 
-            header > ul > li a:active {
-                color: #e63d00;
+        header ul li {
+            list-style-type: none;
+            margin-right: 1rem;
+        }
+
+            header > ul > li a {
+                color: rgba(0, 0, 0, 0.493);
+                letter-spacing: 0.25rem;
+                text-transform: uppercase;
+                text-decoration: none;
             }
+                header > ul > li a:hover {
+                    color: #E29578;
+                }
+
+                header > ul > li a:active {
+                    color: #e63d00;
+                }
 
 
 /**
 section**/
 section {
-    margin: 10em 60em 0 20em;
+    margin: auto;
+    width: 70%;
     text-align: justify;
+    text-align-last: center;
+    max-width: 1200px;
+    min-width: 250px;
 }
 
-section p {
-    margin-bottom: 30em;
-    font-size: 1.3em;
-}
-
-h2 {
-    font-size: 2.5em;
-}
+    section p {
+        font-size: 1.2rem;
+    }
 
 
 /**
-aside**/
-
-
-/**
-Footer **/
+Footer: NEED A BETTER PRESENTATION **/
 footer {
-    margin-top: 200px;
+    margin-top: 150px;
+    border-top: 1px #090e0d solid;
+    backdrop-filter: blur(1px);
+    /*background-image: linear-gradient(to top, #c2e3f0, #EDF6F9 */
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact {
+    display: inherit;
+    gap: 24px;
 }
 
 
 /**
-Class et Id **/
-#date {
-    text-align: right;
+RESPONSIVE **/
+
+/*SHOULD ADD A 4K SECTION TO UPSCALE THE TEXT*/
+
+@media all and (max-width: 1100px) {
+    header ul {
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
 }
 
+@media all and (max-width: 950px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
 
-/** zone de sauvegarde **
-/* Rendre un texte visible */
-    /* A SUPPRIMER 
-    background-color: #E29578;
-     A SUPPRIMER */
+    .hidden_mobile {
+        display: none;
+    }
+}
 
-/* Dégrader */
-/*
-background-image: linear-gradient(to left, #83C5BE, #a0cac6);
-*/
+/** THE TEXT SHOULD STAY ALIGN TO THE LEFT **/ @media all and (max-width: 480px) {
+    header h1 {
+        display:none;
+    }
+
+    header ul {
+        position: absolute;
+        right: 1rem;
+        text-align: end;
+    }
+
+    section {
+        text-align: center;
+        text-align-last: unset;
+    }
+}
