@@ -2,51 +2,109 @@
 <html lang ="Fr-fr">
 <head>
     <meta charset="utf-8" />
-    <title> Léan Asai — </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title> Léan • Accueil </title>
     <!--Animation-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 </head>
 <body>
     <!-- Header -->
         <header>
-            <h1> Bienvenue sur mon premier site web ! </h1>
+            <h1> Bienvenue<span class="hidden_mobile"> sur mon premier site web ! </span></h1>
                 <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="revisions.html" title="Current: page de révision — Work In Progress">Projets</a></li>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="revisions.html" title="page de révision — Work In Progress">Projets</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
         </header>
     
     <!-- wrapper -->
         <section>
-            <h2>Je me présente,</h2>
-            <p>je m'appelle <strong>Léan Asai</strong> et je suis actuellement en recherche d'apprentissage en informatique.</p>
-        
-                <h2>Qui suis-je ?</h2>
-                
-                <p>OpenClassrooms vous propose des cours (tutoriels) destinés aux débutants : aucune connaissance n'est requise pour lire ces cours !</p>
-                
-                <p>Vous pourrez ainsi apprendre, sans rien y connaître auparavant, à créer un site web, à programmer, à construire des mondes en 3D !</p>
-        
-                <h2>Une communauté active</h2>
-                
-                <p>Vous avez un problème, un élément du cours <strong><mark> que vous ne comprenez pas ?</mark></strong> Vous avez besoin d'aide pour créer votre site ?<br />
-                Rendez-vous sur les forums ! Vous y découvrirez que vous n'êtes pas le seul dans ce cas et vous trouverez très certainement quelqu'un qui vous aidera aimablement à résoudre votre problème.</p>
-        
-                <ul>
-                    <li>Fraises</li>
-                    <li>Framboises</li>
-                    <li>Figues</li>
-                    <li>Cerises</li>
-                </ul>
+            <h2 class="title"> Je me présente, </h2>
+
+            <p>je m'appelle <strong>Léan Asai</strong>, j'ai 21 ans et je suis actuellement en recherche d'apprentissage en informatique.</p>
+            
+            <p>Baigné dans les nouvelles technologies dès le plus jeune âge, l’informatique est un milieu qui m’intéresse depuis toujours. À 15 ans, j’ai réalisé et monté une configuration au format ATX. D’un naturel curieux, j’ai pu apprendre les notions de base en programmation (python, c#), installer un OS libre ou encore développer ma première page web, comme celle-ci. Lors de précédents stages, j’ai eu l’opportunité d’intervenir pour des dépannages divers.</p>
+
+
+            <h2 class="title"> Mes passions </h2>
+
+            <p>La <strong>photographie</strong>, c'est quelque chose qui m'accompagne depuis quelques années. A travers mes voyages, les évènements, etc...</p>
+
+            <p>ça me donne l'impression de réaliser un <strong>film</strong> !</p>
+
+            <!-- Figure 1 -->
+                <figure>
+                    <img src="img/portrait_photographe2.jpg" alt="Portrait photo — CC Léan Asai" class="photo">
+                    <div class="hover_image">
+                        <figcaption>Léan Asai ©</figcaption>
+                    </div>
+                </figure>
+
+            <!-- figure 2 -->
+            <figure>
+                <img src="img/water-texture.jpg" alt="photo de VW Polo © Léan Asai" class="photo">
+                <div class="hover_image">
+                    <figcaption>Léan Asai ©</figcaption>
+                </div>
+            </figure>
+
+            <!-- figure 3 -->
+            <figure>
+                <img src="img/DSC_0841.jpg" alt="photo de montagne © Léan Asai" class="photo">
+                <div class="hover_image">
+                    <figcaption>Léan Asai ©</figcaption>
+                </div>
+            </figure>
+
+
+            <h3>Le cinéma</h3>
+
+            <p>C'est cette autre passion qui m'anime.</p>
+            
+            <!-- Figure 4 -->
+                <figure>
+                    <img src="img/screenshot1.jpg" alt="screenshot Better Call Saul">
+                    <div class="hover_image">
+                        <figcaption>AMC © — <i>Image issue de la série Better Call Saul</i></figcaption>
+                    </div>
+                </figure>
+
+
+            <h2 class="title"> Mes expériences en informatiques </h2>
+
+            <ul>
+                <li>Beckman Coulter SA, 2015: Stage d'une semaine </li>
+                <li>Informatique Multi-Services, 2017: Stage d'env. 1 mois</li>
+                <li>Malera.com, 2022: Stage d'une semaine </li>
+            </ul>
+
+            <p>liens de téléchargement vers mon CV, <a href="img/asai_lean-CV.pdf">ici</a>.</p>
+
+            <p>pour voir mon activité en tant que dévelopeur, je vous invite à visiter ma page <a href="https://github.com/Taekyon">github.com</a> !</p>
         </section>
-        
+
     <!-- Footer -->
         <footer>
-            <p id="date">Last Update: 12.09.2022<p>
+            <div id="contact">
+                <p><strong>Contact</strong></p>
+
+                <p>Léan ASAI<br />
+                Route de la rivaz 10<br />
+                1844 Villeneuve</p>
+
+                <p><a href="mailto:lean.asai@protonmail.com">lean.asai@protonmail.com</a><br />
+                078 658 95 80</p>
+
+            </div>
+            <div>
+                <p>Léan Asai / Malera.com ©</p>
+                <p>Last Update: 14.09.2022<p>
+            </div>
         </footer>
+
+<!-- <p>J'ai eu une idée pendant que je réfléchissais au métier d'informaticien. Qu'est-il par essence ? "imagine, un monde futuriste ou comme dans le film <<her>>, nous ne sommes que des alchimistes </p> -->
 </body>
 </html>
