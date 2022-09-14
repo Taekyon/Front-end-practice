@@ -1,0 +1,45 @@
+/* FIRST SLIDESHOW */
+
+@keyframes slideshow1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-1437px);
+    }
+}
+
+/* SECOND SLIDESHOW */
+
+@keyframes slideshow2 {
+    0% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(1041px);
+    }
+}
+
+/* MOBILE */
+
+@keyframes slideshow1-mobile {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-1023px);
+    }
+}
+
+@keyframes slideshow2-mobile {
+    0% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(725px);
+    }
+}
