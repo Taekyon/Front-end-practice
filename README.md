@@ -5,3 +5,8 @@
 - The main Folder will be the "blog" Folder.
 
 Work currently on www
+
+##To Do List##
+
+- Add Carroussel
+- working on 
