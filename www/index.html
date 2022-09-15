@@ -10,7 +10,8 @@
 
 </head>
 <body>
-    <!-- Header -->
+
+    <!-- header -->
         <header>
             <h1> Bienvenue<span class="hidden_mobile"> sur mon premier site web ! </span></h1>
                 <ul>
@@ -19,7 +20,11 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
         </header>
-    
+
+<!-- PHP: Header
+        <?php include 'header.php';?>
+-->
+
     <!-- wrapper -->
         <section>
             <h2 class="title"> Je me présente, </h2>
@@ -35,43 +40,62 @@
 
             <p>ça me donne l'impression de réaliser un <strong>film</strong> !</p>
 
-            <!-- Figure 1 -->
-                <figure>
-                    <img src="img/portrait_photographe2.jpg" alt="Portrait photo — CC Léan Asai" class="photo">
-                    <div class="hover_image">
-                        <figcaption>Léan Asai ©</figcaption>
-                    </div>
-                </figure>
+            <!-- grid for my photo -->
+                <table>
+                    <tr>
+                        <td>
+                            <figure>
+                                <img src="img/portrait_photographe2.jpg" alt="Portrait photo — CC Léan Asai" class="photo" />
+                                <div class="hover_image">
+                                    <figcaption>Léan Asai ©</figcaption>
+                                </div>
+                            </figure>
+                        </td>
 
-            <!-- figure 2 -->
-            <figure>
-                <img src="img/water-texture.jpg" alt="photo de VW Polo © Léan Asai" class="photo">
-                <div class="hover_image">
-                    <figcaption>Léan Asai ©</figcaption>
-                </div>
-            </figure>
+                        <td>
+                            <figure>
+                                <img src="img/DSC_0841-674.jpg" alt="photo de montagne © Léan Asai" class="photo" />
+                                <div class="hover_image">
+                                    <figcaption>Léan Asai ©</figcaption>
+                                </div>
+                            </figure>
+                        </td>
+                    </tr>
 
-            <!-- figure 3 -->
-            <figure>
-                <img src="img/DSC_0841.jpg" alt="photo de montagne © Léan Asai" class="photo">
-                <div class="hover_image">
-                    <figcaption>Léan Asai ©</figcaption>
-                </div>
-            </figure>
+                    <tr>
+                        <td>
+                            <figure>
+                                <img src="img/_DSC0083-674.jpg" alt="photo de VW Polo © Léan Asai" class="photo" />
+                                <div class="hover_image">
+                                    <figcaption>Léan Asai ©</figcaption>
+                                </div>
+                            </figure>
+                        </td>
+
+                        <td>
+                            <figure>
+                                <img src="img/water-texture-674.jpg" alt="photo © Léan Asai" class="photo" />
+                                <div class="hover_image">
+                                    <figcaption>Léan Asai ©</figcaption>
+                                </div>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
 
 
             <h3>Le cinéma</h3>
 
             <p>C'est cette autre passion qui m'anime.</p>
-            
+
+
             <!-- Figure 4 -->
                 <figure>
-                    <img src="img/screenshot1.jpg" alt="screenshot Better Call Saul">
+                    <img src="img/screenshot1-bts.jpg" alt="screenshot Better Call Saul" />
                     <div class="hover_image">
-                        <figcaption>AMC © — <i>Image issue de la série Better Call Saul</i></figcaption>
+                        <figcaption><i>Image issue de la série 'Better Call Saul'</i> — AMC©</figcaption>
                     </div>
                 </figure>
-
 
             <h2 class="title"> Mes expériences en informatiques </h2>
 
@@ -100,8 +124,8 @@
 
             </div>
             <div>
-                <p>Léan Asai / Malera.com ©</p>
-                <p>Last Update: 14.09.2022<p>
+                <p>2022 — Léan Asai / Malera.com ©</p>
+                <p>Last Update: 15.09.2022<p>
             </div>
         </footer>
 
