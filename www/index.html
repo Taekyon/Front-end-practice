@@ -2,12 +2,9 @@
 <html lang ="Fr-fr">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title> Léan • Accueil </title>
-    <!--Animation-->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-
 </head>
 <body>
 
@@ -16,119 +13,107 @@
             <h1> Bienvenue<span class="hidden_mobile"> sur mon premier site web ! </span></h1>
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
-                    <li><a href="revisions.html" title="page de révision — Work In Progress">Projets</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="document.html" title="Work In Progress">Document</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
         </header>
-
-<!-- PHP: Header
-        <?php include 'header.php';?>
--->
 
     <!-- wrapper -->
         <section>
             <h2 class="title"> Je me présente, </h2>
 
-            <p>je m'appelle <strong>Léan Asai</strong>, j'ai 21 ans et je suis actuellement en recherche d'apprentissage en informatique.</p>
-            
-            <p>Baigné dans les nouvelles technologies dès le plus jeune âge, l’informatique est un milieu qui m’intéresse depuis toujours. À 15 ans, j’ai réalisé et monté une configuration au format ATX. D’un naturel curieux, j’ai pu apprendre les notions de base en programmation (python, c#), installer un OS libre ou encore développer ma première page web, comme celle-ci. Lors de précédents stages, j’ai eu l’opportunité d’intervenir pour des dépannages divers.</p>
+            <p>je m'appelle <strong>Léan Asai</strong>, j'ai 21 ans et je suis actuellement en recherche d'apprentissage en informatique pour la rentrée 2023.</p>
+
+            <p>Baigné dans les nouvelles technologies dès le plus jeune âge, l’informatique est un milieu qui m’intéresse depuis toujours. À 15 ans, j’ai réalisé et monté une configuration au format ATX. D’un naturel curieux, j’ai pu apprendre les notions de base en programmation (python, c#), installer un OS libre ou encore développer ma première page web, comme celle-ci. Au cours de mes précédents stages, j’ai eu l’opportunité d’intervenir lors des dépannages divers.</p>
 
 
             <h2 class="title"> Mes passions </h2>
 
-            <p>La <strong>photographie</strong>, c'est quelque chose qui m'accompagne depuis quelques années. A travers mes voyages, les évènements, etc...</p>
+            <p>La <strong>photographie</strong>, est une passion qui m'accompagne depuis quelques années à travers mes voyages. Ce qui m'intéresse le plus, c'est de réussir à cristalliser une ambiance, un instant unique.<br />
+            J'utilise les logiciels Lightroom et Photoshop.</p>
 
-            <p>ça me donne l'impression de réaliser un <strong>film</strong> !</p>
+            <p style="text-decoration: underline;">Voici quelques photos que j'ai pu réaliser par le passé: </p>
+
 
             <!-- grid for my photo -->
-                <table>
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="img/portrait_photographe2.jpg" alt="Portrait photo — CC Léan Asai" class="photo" />
-                                <div class="hover_image">
-                                    <figcaption>Léan Asai ©</figcaption>
-                                </div>
-                            </figure>
-                        </td>
+                <div class="flexbox">
 
-                        <td>
-                            <figure>
-                                <img src="img/DSC_0841-674.jpg" alt="photo de montagne © Léan Asai" class="photo" />
-                                <div class="hover_image">
-                                    <figcaption>Léan Asai ©</figcaption>
-                                </div>
-                            </figure>
-                        </td>
-                    </tr>
+                    <figure><!-- 1 -->
+                        <img src="img/portrait_photographer.jpg" alt="Portrait photo — CC Léan Asai" class="photo" />
+                        <div class="hover_image">
+                            <figcaption>Léan Asai ©</figcaption>
+                        </div>
+                    </figure>
 
-                    <tr>
-                        <td>
-                            <figure>
-                                <img src="img/_DSC0083-674.jpg" alt="photo de VW Polo © Léan Asai" class="photo" />
-                                <div class="hover_image">
-                                    <figcaption>Léan Asai ©</figcaption>
-                                </div>
-                            </figure>
-                        </td>
+                    <figure><!-- 2 -->
+                        <img src="img/photo5.jpg" alt="photo de montagne © Léan Asai" class="photo" />
+                        <div class="hover_image">
+                            <figcaption>Léan Asai ©</figcaption>
+                        </div>
+                    </figure>
 
-                        <td>
-                            <figure>
-                                <img src="img/water-texture-674.jpg" alt="photo © Léan Asai" class="photo" />
-                                <div class="hover_image">
-                                    <figcaption>Léan Asai ©</figcaption>
-                                </div>
-                            </figure>
-                        </td>
-                    </tr>
-                </table>
+                    <figure><!-- 3 -->
+                        <img src="img/photo4.jpg" alt="photo de VW Polo © Léan Asai" class="photo" />
+                        <div class="hover_image">
+                            <figcaption>Léan Asai ©</figcaption>
+                        </div>
+                    </figure>
 
+                    <figure><!-- 4 -->
+                        <img src="img/photo 6.jpg" alt="photo © Léan Asai" class="photo" />
+                        <div class="hover_image">
+                            <figcaption>Léan Asai ©</figcaption>
+                        </div>
+                    </figure>
+                </div>
 
-            <h3>Le cinéma</h3>
+            <h3 class="title"> Le cinéma </h3>
 
-            <p>C'est cette autre passion qui m'anime.</p>
+            <p>Le réalisateur d'un film veut toujours nous faire passer un message à travers son scénario, sa mise en scène ou encore son cadrage.<br />
+            Il est parfois difficile de trouver des créations originales parmi le vaste choix de films existants. Je vous invite donc à découvrir les oeuvres suivantes que j'ai découvert récemment. Emotions garanties !</p>
 
+            <!-- grid for my photo -->
+                <div class="flexbox">
+                    <!-- Figure 5 -->
+                        <figure>
+                            <img src="img/screenshot1-bts.jpg" alt="screenshot Better Call Saul" />
+                            <div class="hover_image">
+                                <figcaption><i>Image issue de la série 'Better Call Saul'</i> — AMC©</figcaption>
+                            </div>
+                        </figure>
 
-            <!-- Figure 4 -->
-                <figure>
-                    <img src="img/screenshot1-bts.jpg" alt="screenshot Better Call Saul" />
-                    <div class="hover_image">
-                        <figcaption><i>Image issue de la série 'Better Call Saul'</i> — AMC©</figcaption>
-                    </div>
-                </figure>
+                    <!-- Figure 6 -->
+                    <figure>
+                        <img src="img/screenshot1-eeaao.jpg" alt="screenshot Everything everywhere all at once" />
+                        <div class="hover_image">
+                            <figcaption><i>Image issue du film 'Everything Everywhere All At Once'</i> — Leonine©</figcaption>
+                        </div>
+                    </figure>
+                </div>
 
             <h2 class="title"> Mes expériences en informatiques </h2>
 
             <ul>
-                <li>Beckman Coulter SA, 2015: Stage d'une semaine </li>
-                <li>Informatique Multi-Services, 2017: Stage d'env. 1 mois</li>
-                <li>Malera.com, 2022: Stage d'une semaine </li>
+                <li><strong>Office 365</strong>: Maîtrise avancées</li>
+                <li><strong>Python, C#</strong>: Notion de base</li>
+                <li><strong>HTML & CSS</strong>: Création cette page web</li>
+                <li><strong>Autre compétences</strong>: Montage PC, installation d'OS (Ubuntu)</li>
             </ul>
 
-            <p>liens de téléchargement vers mon CV, <a href="img/asai_lean-CV.pdf">ici</a>.</p>
+            <h3>Stages</h3>
 
-            <p>pour voir mon activité en tant que dévelopeur, je vous invite à visiter ma page <a href="https://github.com/Taekyon">github.com</a> !</p>
+            <ul>
+                <li>Beckman Coulter SA, Nyon 2015: Stage d'une semaine </li>
+                <li>Informatique Multi-Services, Villeneuve 2017: Stage d'env. 1 mois</li>
+                <li>Malera.com, Vevey 2022: Stage d'une semaine </li>
+            </ul>
         </section>
 
     <!-- Footer -->
         <footer>
-            <div id="contact">
-                <p><strong>Contact</strong></p>
-
-                <p>Léan ASAI<br />
-                Route de la rivaz 10<br />
-                1844 Villeneuve</p>
-
-                <p><a href="mailto:lean.asai@protonmail.com">lean.asai@protonmail.com</a><br />
-                078 658 95 80</p>
-
-            </div>
-            <div>
-                <p>2022 — Léan Asai / Malera.com ©</p>
-                <p>Last Update: 15.09.2022<p>
-            </div>
+            <p class="float_right"> Last Update: 16.09.2022 <p>
+            <p> 2022 — Léan Asai / Malera.com © </p>
         </footer>
 
-<!-- <p>J'ai eu une idée pendant que je réfléchissais au métier d'informaticien. Qu'est-il par essence ? "imagine, un monde futuriste ou comme dans le film <<her>>, nous ne sommes que des alchimistes </p> -->
 </body>
 </html>
