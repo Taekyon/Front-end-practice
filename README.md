@@ -6,7 +6,6 @@
 
 Work currently on www
 
-##To Do List##
+##To Do List
 
 - Add Carroussel
-- working on 
