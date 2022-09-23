@@ -10,6 +10,6 @@
 
 
 ### To Do List
-Add carroussel
-New Bio
-Add tab Projects
+- Add carroussel
+- New Bio
+- Add tab Projects
