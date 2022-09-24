@@ -1,0 +1,72 @@
+/*ajout des polices Montserrat et Roboto, via googleapis*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*
+/* body ------------*/
+
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+	background-color: #FFF7FF;
+	color:#181818;
+}
+
+#bloc_page {
+	width: 900px;
+	margin: auto;
+}
+
+
+/*
+/*header ----------------*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items; flex-end;
+	height: 100px;
+	min-height: 50px;
+}
+
+
+/*
+/*Styles de block -----------*/
+
+figure {
+	text-align: center;
+	font-style: italic;
+}
+
+footer {
+	margin: 200px 0 0 25px;
+}
+
+
+/*Les titres--*/
+h1 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	box-shadow: 2px 3px 0 0 black;
+	padding: 0 0 10px 0px;
+}
+
+h2 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	/* essayer de créer un espacement après, comme sur Word */
+}
+
+h3 {
+    font-family: 'Montserrat', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*
+Les classes ---------------*/
+
+.float_right {
+	float: right;
+}
+
+/*
+<b> = bold ---> font-style
+<i> = italic -> font-style
+<ins> = inserted text (wich is underlined) -> text-decoration: underline*/
