@@ -10,6 +10,7 @@
 
 
 ### To Do List
+In Main-blog:
 - Add carroussel
-- New Bio
-- Add tab Projects
+- New Bio, restructure
+- Replace 'Document' by 'Projets'
