@@ -37,7 +37,6 @@ h2 {
 }
 
 h3 {
-    margin-top: 38px;
     font-size: 2rem;
 }
 
@@ -158,7 +157,7 @@ embed {
 /**
 section**/
 section {
-    margin: auto;
+    margin: auto; /* to center the block */
     width: 70%;
     text-align: justify;
     text-align-last: center;
@@ -194,6 +193,12 @@ RESPONSIVE **/
 
 /*SHOULD ADD A 4K SECTION TO UPSCALE THE TEXT*/
 
+@media all and (max-width: 1446px) {
+    figure {
+        width: 60%; /** change width (or height) HERE **/
+    }
+}
+
 @media all and (max-width: 1100px) {
     header ul {
         flex-direction: column;
@@ -207,12 +212,18 @@ RESPONSIVE **/
         font-size: 2.5rem;
     }
 
-    .hidden_mobile {
+    .hidden_r {
         display: none;
+    }
+
+    /* Can be a *section* span:last-child */
+    .break_r {
+        display: block;
     }
 }
 
-/** THE TEXT SHOULD STAY ALIGN TO THE LEFT **/ @media all and (max-width: 480px) {
+/* THE TEXT SHOULD STAY ALIGN TO THE LEFT */
+@media all and (max-width: 480px) {
     header h1 {
         display:none;
     }
@@ -226,5 +237,13 @@ RESPONSIVE **/
     section {
         text-align: center;
         text-align-last: unset;
+    }
+
+    figure {
+        width: 85%; /** change width (or height) HERE **/
+    }
+
+    h2 {
+        font-size: 2rem;
     }
 }
