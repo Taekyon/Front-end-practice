@@ -12,7 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 MAIN SECTION**/
 
 body {
-    background: url('../img/background-compressed.jpg') repeat-y;
+    background: url('../img/background-compressed.jpg');
+    background-size: cover;
     font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
@@ -52,8 +53,9 @@ a {
         color:#83C5BE;
     }
 
-ul {
+ul li {
     list-style-type: none;
+    padding-right: 40px;
 }
 
 /**
@@ -191,21 +193,18 @@ footer {
 /**
 RESPONSIVE **/
 
-/*SHOULD ADD A 4K SECTION TO UPSCALE THE TEXT*/
-
 @media all and (max-width: 1446px) {
     figure {
         width: 60%; /** change width (or height) HERE **/
     }
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1225px) {
     header ul {
         flex-direction: column;
         font-size: 1.2rem;
     }
 }
-
 
 @media all and (max-width: 950px) {
     header h1 {
