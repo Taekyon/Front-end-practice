@@ -1,4 +1,4 @@
-# HTML and CSS practice
+# Front-end practice
 
 - This is a Repository where I can learn and practice Front-end.
 - I'm currently Building different HTML pages and CSS stylesheets (switching between different format and design).
@@ -9,6 +9,9 @@
 
 - Page available here [malera.com](https://malera.com/stages/2022-Lean_Asai/ "Hosted by Malera.com")
 
+## Vue.js
+
+- Currently learning Vue.js
 
 ### To Do List
 
