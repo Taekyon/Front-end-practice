@@ -9,9 +9,9 @@
 
 - Page available here [malera.com](https://malera.com/stages/2022-Lean_Asai/ "Hosted by Malera.com")
 
-## 📌 js
+## 📌 Learning
 
-- Currently learning js
+- Currently learning js/Vue.js
 
 ## To Do List
 
