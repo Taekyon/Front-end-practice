@@ -9,13 +9,13 @@
 
 - Page available here [malera.com](https://malera.com/stages/2022-Lean_Asai/ "Hosted by Malera.com")
 
-## Vue.js
+## js :Pushpin:
 
-- Currently learning Vue.js
+- Currently learning js
 
-### To Do List
+## To Do List
 
-In main_blog:
+### In main_blog:
 - New Bio + Moving paragraphs
 - Replace 'Document' by 'Projets'
 - Create and add 'magazine-extrait.pdf' to 'blog/main_blog/img'.
@@ -23,5 +23,4 @@ In main_blog:
 - Implement php for better Header.
 - Add carroussel
 - Automate the date change in the footer
-
 (don't forget to update the date in the footer)
