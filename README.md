@@ -9,7 +9,7 @@
 
 - Page available here [malera.com](https://malera.com/stages/2022-Lean_Asai/ "Hosted by Malera.com")
 
-## js 📌
+## 📌 js
 
 - Currently learning js
 
