@@ -1,3 +1,4 @@
+// Vue.js way
 Vue.createApp({
   data() {
     return {
@@ -13,6 +14,7 @@ Vue.createApp({
   },
 }).mount("#app");
 
+// js way
 // const buttonLe = document.querySelector('button');
 // const inputLe = document.querySelector('input');
 // const listLe = document.querySelector('ul');
