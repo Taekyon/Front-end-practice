@@ -19,8 +19,12 @@
     </header>
     <section id="user-goal">
       <h2>My Course Goal</h2>
+      <!-- way one -->
       <p>{{ outputGoal() }}</p>
+      <!-- way two -->
       <p>Learn more about <a v-bind:href="vueLink">Vue</a> .</p>
+      <!-- way three : security issues !!
+      <p v-html="outputGoal()"></p> -->
     </section>
   </body>
 </html>
