@@ -14,15 +14,15 @@ const app = Vue.createApp({
       alert('Submitted!');
     },
 
-    /* setName(event, lastName) {
+    setName(event) {
       this.name = `${event.target.value}`;
-    }, */
+    },
 
     add(n) {
-      this.counter = this.counter + n;
+      this.counter += n;
     },
     reduce(n) {
-      this.counter = this.counter - n;
+      this.counter -= n;
     },
     resetInput() {
       this.name = '';
