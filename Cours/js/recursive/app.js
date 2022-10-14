@@ -14,7 +14,6 @@ function factorielle(number){
   if (number === 0) return 1;
   else {
     return (number * factorielle(number-1));
-    console.log("nombre en sortie :" + number);
   };
 }
 //======/FONCTION À ECRIRE======
@@ -27,8 +26,8 @@ function onCalcul(){
     alert("Ceci n'est pas un nombre");
     return;
   }
-  espaceMessage.innerHTML = "La factorielle de " + number + " est " + factorielle(number);
+  espaceMessage.innerHTML = `La factorielle de ${number} est ${factorielle(number)}`;
 }
 
-//On écoute l'action de click sur le onConvert et on appelle la fonction onConvert
+//On écoute l'action de click sur le onCalcul et on appelle la fonction onCalcul
 bouton.addEventListener('click', onCalcul);
