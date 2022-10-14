@@ -63,5 +63,5 @@ for (let url0 of urls) {
 
 /* DOC
 await: permet d'attendre que la fonction s'éxecute.
-$x: puppeteer selector for xpath
+$x: sélecteur puppeteer pour le 'xpath'.
 */
