@@ -10,7 +10,7 @@ const app = Vue.createApp({
       if (this.counter < 37) {
         return `Not there yet.`;
       } else if (this.counter === 37) {
-        return this.counter;
+        return `Good Job, you entered the correct value ! (37)`;
       } else {
         return `Too much !`;
       }
@@ -20,10 +20,12 @@ const app = Vue.createApp({
     result() {
       console.log("Watcher executing");
       const that = this;
-      setTimeout(function () {
-        that.counter = 0;
-        alert("Restarted");
-      }, 5000);
+      // if (this.counter > 37) {
+        setTimeout(function () {
+          that.counter = 0;
+          alert("Restarted");
+        }, 3000);
+      // }
     },
   },
   methods: {

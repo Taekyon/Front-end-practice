@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A First App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <div>
+		<p>Every time you click the button, getRndInteger(min, max) returns a random number between 0 
+and 9 (both included):</p>
+
+<button>Click Me</button>
+
+<p id="demo"></p>
+      </div>
+      <ul>
+	  </ul>
+<script>
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+</script>
+<script>
+const buttonEl = document.querySelector('button');
+const inputEl = document.querySelector('input');
+const listEl = document.querySelector('ul');
+
+function addRandomNumber() {
+  const listItemEl = document.createElement('li');
+  listItemEl.value = getRndInteger(0, 10);
+  listEl.appendChild(listItemEl);
+  inputEl.value = '';
+}
+
+buttonEl.addEventListener('click', addRandomNumber);
+</script>
+
+</body>
+</html>

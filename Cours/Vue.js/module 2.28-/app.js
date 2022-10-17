@@ -1,7 +1,7 @@
 const app = Vue.createApp({
   data() {
     return {
-      counter: 0,
+      counter: 10,
       name: "",
       lastname: "",
       // fullname: "",
@@ -9,12 +9,12 @@ const app = Vue.createApp({
   },
   watch: {
     counter(value) {
-      console.log("Running watch: counter");
       if (value < 0) {
         const that = this;
         setTimeout(function () {
           that.counter = 0;
         }, 100);
+        console.log("Running function to reset counter (watch)");
       }
     },
 
@@ -44,7 +44,7 @@ const app = Vue.createApp({
   },
   methods: {
     initialValue() {
-      this.counter = 0;
+      this.counter = 10;
     },
     resetInput() {
       console.log("Running function 'resetInput'.");
@@ -52,9 +52,7 @@ const app = Vue.createApp({
       this.lastname = "";
       return;
     },
-    setName(event, lastname) {
-      this.name = event.target.value + " " + lastname;
-    },
+
     add(n) {
       this.counter += n;
     },
