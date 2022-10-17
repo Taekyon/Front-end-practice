@@ -6,7 +6,17 @@ async function scrapeProduct(url) {
   await page.goto(url);
 
   //vérification
-  // if ('//*[@id="campsite-address"]/div[1]/div[1]/p[8]/a' === 0...) {
+  let xpath = '/html/body/div[1]/div[1]/div/span[2]/div[2]/div/div[1]/div[2]/div/div[3]/div[1]/div[1]/p[8]/a';
+
+  // TODO: corriger la syntax
+  let jq_sel = xpath
+  .substr(1)  // substr to discard first slash
+  .replace(/\//g, ' > ')
+  .replace(/\[(\d+)\]/g, ($0, i) => ':nth-child('+i+')');
+  // const closestId = document.querySelector("");
+  // const hasAdresse = elt.classlist.contains("");
+
+  // if ( === 0...) {
 
   const [el] = await page.$x('//*[@id="campsite-address"]/div[1]/div[1]/p[1]');
   const txt = await el.getProperty("textContent");
@@ -55,7 +65,9 @@ async function scrapeProduct(url) {
   return (nom, adresse, ville, region, email, telephone, latitude, longitude);
 }
 // console.log(JSON.stringify(), ",");
-console.log(JSON.stringify(nom, adresse, ville, region, email, telephone, latitude, longitude), ",");
+
+// MAIN
+// console.log(JSON.stringify(nom, adresse, ville, region, email, telephone, latitude, longitude), ",");
 
 
 
