@@ -1,3 +1,6 @@
+require('events').EventEmitter.defaultMaxListeners = 150;
+
+
 var puppeteer = require("puppeteer");
 
 async function scrapeProduct(url) {
@@ -189,7 +192,7 @@ for (i = 0; i < urls.length ; i += 10)
 
 function delay(time) {
   return new Promise(resolve => setTimeout(resolve, time));
-} 
+}
 
 run();
 
