@@ -69,7 +69,7 @@ header {
   padding: 0.05rem 1rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
   border-radius: 20px;
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
 #events button:hover,
@@ -77,4 +77,8 @@ header {
   background-color: #ec3169;
   border-color: #ec3169;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+.reset {
+  background-color: black;
 }

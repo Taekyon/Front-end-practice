@@ -20,15 +20,17 @@
       <button v-on:click="reduce(5)">Subtract 5</button>
       <p>Result: {{ counter }}</p>
 
-      <input type="text" id="fname" placeholder="first name" v-bind:value="name" v-on:input="setName" v-on:keyup.enter="confirmedInput($event, ' San')" autofocus /> <!-- Why 'autofocus' doesn't work ? -->
+      <!-- v-bind:value="name" v-on:input="setName" -->
+      <input type="text" id="fname" placeholder="first name" v-model="name" v-on:keyup.enter="confirmedInput()" autofocus />
+      <!-- Why 'autofocus' doesn't work ? -->
       <button v-on:click="resetInput">Reset Input</button>
       <label for="fname">
-        <p>Your Name: {{ confirmedName }}</p>
+        <p>Your Name: {{ outputFullname }}</p>
       </label>
       <!-- form -->
       <form v-on:submit.prevent="submitForm">
-        <input type="text">
-        <button>Sign Up</button>
+        <input type="text" />
+        <button v-on:click="resetInput(submit)">Sign Up</button>
       </form>
     </section>
   </body>
